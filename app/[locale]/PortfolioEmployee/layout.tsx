@@ -183,7 +183,7 @@ export default function PortfolioLayout({ children }: { children: React.ReactNod
                         flexDirection: 'column',
                         gap: 1,
                         zIndex: 1100,
-                        boxShadow: currentTheme === 'dark' ? '0 8px 32px rgba(0,0,0,0.4)' : (theme.customShadows && theme.customShadows.z8) ? theme.customShadows.z8 : '0 8px 16px rgba(0,0,0,0.1)',
+                        boxShadow: currentTheme === 'dark' ? '0 8px 32px rgba(0,0,0,0.4)' : '0 8px 16px rgba(0,0,0,0.1)',
                         maxHeight: '75vh',
                         overflowY: 'auto',
                         overflowX: 'hidden',
